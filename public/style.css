@@ -110,16 +110,17 @@ box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.46);
   cursor: pointer;
   transition: 0.5s;
 }
-#featured {
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 45.5px;
-  display: grid;
-  grid-gap: 1rem;
-  display: flex;
-flex-direction: row;
-  justify-content: center;
+
+#featured img {
+	height: 15.6vw;
+	width: 15.6vw;
+	border-radius: 1vw;
+	margin: .5vw;
+	cursor: pointer;
+	user-select: none;
+	transition: transform .2s;
 }
+
 .clock {
     position: absolute;
     width: 350px;
